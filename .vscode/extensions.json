@@ -1,5 +1,6 @@
 {
   "recommendations": [
+    "vue.volar",
     "EditorConfig.EditorConfig"
   ]
 }

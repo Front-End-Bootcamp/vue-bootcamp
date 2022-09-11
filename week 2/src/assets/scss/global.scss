@@ -1,0 +1,48 @@
+:root {
+	--white: rgb(245, 245, 245);
+	--black: rgb(44, 44, 44);
+	--purple: rgb(147, 140, 219);
+	--purple-dark: rgb(108, 103, 163);
+	--orange: rgb(247, 133, 1);
+
+	--primary-color: var(--white);
+	--secondary-color: var(--purple);
+
+	--primary-button-text-color: var(--white);
+	--secondary-button-text-color: var(--white);
+
+	--primary-button-color: var(--orange);
+	--secondary-button-color: var(--purple-dark);
+
+	--text-color-light: var(--white);
+	--text-color-dark: var(--black);
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+
+	width: 100%;
+	min-height: 100vh;
+}
+
+#bootcamp {
+	margin: 0;
+	padding: 0;
+
+	display: flex;
+	flex-direction: column;
+	align-items: stretch;
+	justify-content: flex-start;
+	width: 100%;
+	min-height: 100vh;
+
+
+}
